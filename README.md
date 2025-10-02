@@ -21,6 +21,20 @@ A web application (app.py) that lets you interact with the recommender system lo
 * NLTK – Text processing 
 * Matplotlib, Seaborn – Data visualization
 
+## Working: ##
+* The app displays a dropdown list of movies available in the dataset.
+* The user selects a movie from the list.
+* The system computes similarity using cosine similarity on movie features.
+* It recommends a list of top N similar movies (e.g., 5 recommendations).
+
+Example:
+If the user selects “The Dark Knight”, the recommender suggests movies like:
+Batman Begins
+The Dark Knight Rises
+Batman
+Man of Steel
+Iron Man
+
 ## Author ##
 * Adithya Prasad
 * MIT Manipal
